@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Praktikum 1 Web Lanjut</title>
+    </h:head>
+    
+    <h:body>
+        Anda memasukkan Data sebagai berikut:  <br/>
+        ____________________________________________________________________    <br/>
+        Nama                : <h:outputText value="#{studentBean.nama}"/>       <br/>
+        No Handphone        : <h:outputText value="#{studentBean.no_telepon}"/> <br/>
+        Alamat              : <h:outputText value="#{studentBean.alamat}"/>     <br/>
+        Jurusan             : <h:outputText value="#{studentBean.jurusan}"/>    <br/>
+        Moto Hidup          : <h:outputText value="#{studentBean.motto_hidup}"/><br/>
+        ____________________________________________________________________    <br/>
+        <h:commandButton value = "Back" action = "index"/>
+    </h:body>
+</html>
+
